@@ -357,6 +357,11 @@ header ul li:hover {
   gap: 30px;
   height: 560px;
 }
+@media screen and (min-width: 767px) {
+  .timeline {
+    height: 230px;
+  }
+}
 
 .timeline-item {
   display: flex;
@@ -429,6 +434,7 @@ header ul li:hover {
 .title-chairmen {
   color: #0e5d56;
   text-align: center;
+  margin: 15px 0px;
 }
 
 .chairmen .container {
@@ -472,7 +478,7 @@ header ul li:hover {
   }
 }
 .chairmen .container .chairmen-box p {
-  width: 70%;
+  width: 100%;
   font-size: 14px;
   font-weight: 200;
   letter-spacing: 1.1px;

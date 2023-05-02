@@ -24,6 +24,10 @@
 
   gap: 30px;
   height: 560px;
+
+  @include tablet{
+    height: 230px;
+  }
 }
 
 .timeline-item {
