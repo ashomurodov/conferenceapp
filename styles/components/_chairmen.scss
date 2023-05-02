@@ -1,0 +1,79 @@
+.title-chairmen {
+  color: $main-color;
+  text-align: center;
+}
+
+.chairmen {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @include tablet {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .chairmen-box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 30px;
+      width: 260px;
+
+      @include tablet {
+        width: 450px;
+      }
+
+      h5 {
+        font-weight: 700;
+        font-size: 20px;
+        text-align: center;
+        margin: 25px 0px;
+
+        @include tablet {
+          font-size: 22px;
+        }
+
+        @include miniDesk {
+          font-size: 24px;
+        }
+      }
+
+      p {
+        width: 70%;
+        font-size: 14px;
+        font-weight: 200;
+        letter-spacing: 1.1px;
+        text-align: center;
+        margin: auto;
+
+        @include tablet {
+          font-size: 15px;
+        }
+
+        @include miniDesk {
+          font-size: 17px;
+        }
+      }
+
+      img {
+        width: 200px;
+        height: 200px;
+
+        @include tablet {
+          width: 240px;
+          height: 240px;
+        }
+
+        @include miniDesk {
+          width: 300px;
+          height: 300px;
+        }
+        object-fit: cover;
+        border-radius: 50%;
+      }
+    }
+  }
+}

@@ -1,0 +1,99 @@
+.important-dates {
+  color: $main-color;
+}
+.imprDates {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  .container {
+    padding: 25px;
+  }
+
+  @include miniDesk {
+    .container {
+      width: 1000px;
+    }
+  }
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+
+  gap: 30px;
+  height: 560px;
+}
+
+.timeline-item {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.circle,
+.circler {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: $main-color;
+  position: relative;
+}
+
+.circle::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 3px;
+  height: 190px;
+  background-color: $main-color;
+}
+
+.date {
+  margin-top: 20px;
+  text-align: left;
+  margin-left: 20px;
+
+  @include miniDesk {
+    margin-left: 0;
+  }
+
+  .dayYear {
+    font-size: 20px;
+    font-weight: 700;
+    color: $main-color;
+    margin-bottom: 10px;
+  }
+
+  .aboutDayYear {
+    font-size: 13px;
+    line-height: 22px;
+    letter-spacing: 1.3px;
+  }
+}
+
+@include miniDesk {
+  .imprDates {
+    align-items: center;
+  }
+  .timeline {
+    flex-direction: row;
+    width: 1000px;
+  }
+
+  .timeline-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .circle::before {
+    height: 3px;
+    width: 250px;
+    top: 50%;
+    left: -240%;
+  }
+}

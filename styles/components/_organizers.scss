@@ -1,0 +1,60 @@
+.organizers {
+  color: $main-color;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .organizers-title {
+    text-align: center;
+    margin: 30px 0px;
+  }
+
+  .container {
+    display: grid;
+    row-gap: 30px;
+    grid-template-columns: 1fr;
+
+    @include miniDesk {
+      width: 1000px;
+    }
+
+    @include tablet {
+      // width: 100vw;
+      // grid-template-columns: 1fr 1fr;
+      .oneFirst {
+        grid-area: "first";
+      }
+      .twoSecond {
+        grid-area: "second";
+      }
+      .threeTh {
+        grid-area: "third";
+      }
+
+      grid-template-areas:
+        "first second"
+        "third third";
+    }
+  }
+
+  .organize-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    font-weight: 800;
+    text-align: center;
+    width: 350px;
+    letter-spacing: 1.5px;
+    font-size: 13px;
+
+    img {
+      width: 130px;
+      height: 130px;
+      object-fit: cover;
+      margin-bottom: 30px;
+    }
+  }
+}

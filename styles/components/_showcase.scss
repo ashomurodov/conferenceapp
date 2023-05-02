@@ -1,0 +1,96 @@
+.showcase {
+  height: 700px;
+
+  @include miniDesk {
+    height: 800px;
+  }
+  background-image: url("../images/cover2020.jpg");
+  background-blend-mode: luminosity;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: right;
+  background-attachment: fixed;
+
+  .container {
+    background-image: -webkit-linear-gradient(top, rgba(41, 118, 117, 0.6), rgba(0, 0, 0, 0.4));
+    height: 100%;
+    color: #fff;
+    @include miniDesk {
+      padding: 70px 60px;
+    }
+    padding: 20px 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .textcontainer {
+    animation-name: animeTop;
+    transition: 0.3s ease;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    z-index: 1;
+  }
+
+  .date-top p {
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+  }
+
+  .second-text h4 {
+    margin-top: 35px;
+    margin-bottom: 15px;
+    font-size: 30px;
+
+    @include miniDesk {
+      font-size: 45px;
+    }
+  }
+
+  .second-text p {
+    margin: 30px 0px 24px 0px;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 1.5px;
+  }
+
+  .third-text {
+    @include miniDesk {
+      font-size: 40px;
+    }
+    font-size: 28px;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+  }
+
+  .fourth-text {
+    @include miniDesk {
+      font-size: 35px;
+    }
+    font-size: 23px;
+  }
+
+  .last-text {
+    @include miniDesk {
+      margin-top: 40px;
+      font-size: 35px;
+    }
+    font-size: 20px;
+    margin-top: 30px;
+  }
+}
+
+@keyframes animeTop {
+  0% {
+    transform: translateY(-100px);
+    opacity: 0%;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 100%;
+  }
+}

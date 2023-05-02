@@ -1,0 +1,83 @@
+.abtconferencia {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  ul li::before {
+    content: "•";
+    font-size: 1em;
+  }
+
+  .container {
+    padding: 10px;
+
+    @include miniDesk {
+      width: 1000px;
+    }
+  }
+
+  .title {
+    color: $main-color;
+    margin-bottom: 30px;
+  }
+
+  .firstText,
+  .secondText {
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 30px;
+  }
+
+  .languageConf {
+    margin: 30px 0px;
+  }
+
+  .secondTitle {
+    font-size: 16px;
+    color: $main-color;
+    margin-bottom: 10px;
+  }
+
+  .lastText {
+    line-height: 25px;
+    margin-bottom: 30px;
+  }
+
+  .linkList li {
+    font-size: 18px;
+    color: $main-color;
+    margin: 10px 0px;
+    font-weight: 600;
+  }
+
+  @include miniDesk {
+    .firstText,
+    .secondText,
+    .languageConf {
+      font-size: 22px;
+      line-height: 35px;
+      margin-bottom: 30px;
+    }
+
+    .secondTitle {
+      font-size: 22px;
+      color: $main-color;
+      margin-bottom: 10px;
+    }
+
+    .lastText {
+      font-size: 22px;
+      line-height: 25px;
+      margin-bottom: 30px;
+    }
+
+    .linkList li {
+      font-size: 22px;
+      color: $main-color;
+      margin: 10px 0px;
+      font-weight: 600;
+    }
+  }
+}
