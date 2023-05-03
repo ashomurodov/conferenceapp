@@ -152,11 +152,19 @@
         &::after {
           content: "";
           width: 2px;
-          height: 1000px;
+          height: 900px;
           background-color: $main-color;
           position: absolute;
           transform: translateX(-70%);
         }
+      }
+    }
+  }
+
+  .lastOne {
+    .CirCle {
+      &::after {
+        height: 10px !important;
       }
     }
   }

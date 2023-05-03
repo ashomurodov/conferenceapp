@@ -4,11 +4,12 @@
   @include miniDesk {
     height: 800px;
   }
-  background-image: url("../images/cover2020.jpg");
+  background-image: url("../images/newhero.jpeg");
   background-blend-mode: luminosity;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position-x: right;
+  background-position-x: center;
+  background-position-y:center; ;
   background-attachment: fixed;
 
   .container {

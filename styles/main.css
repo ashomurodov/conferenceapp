@@ -87,11 +87,12 @@ header ul li:hover {
 
 .showcase {
   height: 700px;
-  background-image: url("../images/cover2020.jpg");
+  background-image: url("../images/newhero.jpeg");
   background-blend-mode: luminosity;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position-x: right;
+  background-position-x: center;
+  background-position-y: center;
   background-attachment: fixed;
 }
 @media screen and (min-width: 992px) {
@@ -849,8 +850,53 @@ header ul li:hover {
 .timelineSection .container .timeBox .CirCle::after {
   content: "";
   width: 2px;
-  height: 1000px;
+  height: 900px;
   background-color: #0e5d56;
   position: absolute;
   transform: translateX(-70%);
+}
+.timelineSection .lastOne .CirCle::after {
+  height: 10px !important;
+}
+
+.conference {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.conference h1 {
+  color: #0e5d56;
+}
+.conference .container {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 20px;
+}
+.conference .conf_box {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 10px 0px;
+  height: auto;
+  padding: 20px;
+}
+.conference .conf_box h3 {
+  margin: 20px 0px;
+}
+.conference .conf_box ul li {
+  line-height: 25px;
+}
+.conference .conf_box img {
+  width: 100px;
+  height: auto;
+}
+.conference .conf_box button {
+  padding: 14px 18px;
+  border: 2px solid #0e5d56;
+  color: #0e5d56;
+  background-color: #fff;
+  cursor: pointer;
+  margin-top: 20px;
 }/*# sourceMappingURL=main.css.map */

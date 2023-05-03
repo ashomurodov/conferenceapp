@@ -1,0 +1,48 @@
+.conference {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  h1 {
+    color: $main-color;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 20px;
+  }
+
+  .conf_box {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 10px 0px;
+    height: auto;
+    padding: 20px;
+
+    h3{
+        margin: 20px 0px;
+    }
+
+    ul li{
+        line-height: 25px;
+    }
+
+    img{
+        width: 100px;
+        height: auto;
+    }
+
+    button{
+        padding: 14px 18px;
+        border: 2px solid $main-color;
+        color: $main-color;
+        background-color: #fff;
+        cursor: pointer;
+        margin-top: 20px;
+    }
+  }
+}
