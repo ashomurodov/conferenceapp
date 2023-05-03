@@ -1,0 +1,151 @@
+.timelineSection {
+  margin-top: 50px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    font-size: 30px;
+    color: $main-color;
+    margin-bottom: 30px;
+  }
+
+  h3 {
+    font-size: 25px;
+    margin: 10px 0px 20px 0px;
+  }
+
+  .opacity0 {
+    opacity: 0;
+  }
+
+  .whatDO{
+
+    .name{
+        font-size: 25px;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+
+    .about{
+        width: 200px;
+        font-weight: 300;
+        line-height: 23px;
+
+        @include miniDesk{
+            width: 500px;
+        }
+    }
+  }
+
+  .container {
+    margin-top: 50px;
+
+    .timeBox {
+      display: flex;
+      gap: 50px;
+      margin-bottom: 120px;
+      .time {
+        font-weight: 600;
+        font-size: 22px;
+      }
+      .LEFT_TIME {
+        display: none;
+      }
+
+      @include miniDesk {
+        .LEFT_TIME {
+          display: block;
+        }
+      }
+
+      .list {
+        font-size: 18px;
+        width: 270px;
+        line-height: 30px;
+        font-weight: 300;
+
+        @include miniDesk {
+          font-size: 20px;
+          width: 450px;
+        }
+      }
+
+      .whatDO {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        align-items: flex-start;
+        .RIGHT_TIME {
+          display: block;
+        }
+
+        .title {
+          font-weight: 600;
+        }
+
+        @include miniDesk {
+          .RIGHT_TIME {
+            display: none;
+          }
+        }
+
+        p {
+          font-size: 18px;
+
+          @include miniDesk {
+            font-size: 22px;
+          }
+        }
+
+        .someTxt {
+          display: flex;
+          flex-direction: column;
+          margin-top: 20px;
+
+          .AyDi {
+            font-size: 16px;
+          }
+
+          .titles {
+            font-size: 18px;
+            color: $main-color;
+            font-weight: 700;
+
+            @include miniDesk {
+              font-size: 22px;
+            }
+          }
+        }
+      }
+
+      .CirCle {
+        width: 15px;
+        height: 15px;
+        border: 2px solid $main-color;
+        border-radius: 50%;
+        background-color: $main-color;
+        position: relative;
+
+        img {
+          width: 60px;
+          height: 60px;
+          border-radius: 50%;
+          transform: translate(-45%, -10%);
+          border: 2px solid $main-color;
+        }
+
+        &::after {
+          content: "";
+          width: 2px;
+          height: 1000px;
+          background-color: $main-color;
+          position: absolute;
+          transform: translateX(-70%);
+        }
+      }
+    }
+  }
+}

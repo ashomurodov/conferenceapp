@@ -1,0 +1,42 @@
+.organizingCommitte {
+  .title-organize {
+    text-align: center;
+    color: $main-color;
+    margin: 35px 0px;
+  }
+  .container {
+    width: 75%;
+    margin: auto;
+  }
+
+  .confr-down {
+    padding: 40px;
+    text-align: center;
+    color: #fff;
+    background-color: $main-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+  }
+
+  .textShablon {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 50px 0px;
+
+    p:first-of-type {
+      @include miniDesk {
+        font-size: 20px;
+      }
+      font-weight: 800;
+    }
+
+    p:last-of-type {
+      @include miniDesk {
+        font-size: 18px;
+      }
+    }
+  }
+}
