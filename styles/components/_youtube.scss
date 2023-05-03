@@ -1,0 +1,42 @@
+.video {
+  width: 350px;
+  height: 245px;
+
+  @include miniDesk {
+    width: 450px;
+    height: 320px;
+  }
+
+  @include desktop {
+    width: 560px;
+    height: 355px;
+  }
+
+  h6{
+    font-size: 18px;
+    margin: 20px 0px;
+  }
+}
+
+iframe {
+  width: 100%;
+  height: 80%;
+}
+
+
+.youtube__section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .container {
+    padding: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 35px;
+    @include miniDesk {
+      width: 1400px;
+    }
+  }
+}
