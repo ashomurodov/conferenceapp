@@ -9,7 +9,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position-x: center;
-  background-position-y:center; ;
+  background-position-y: center;
   background-attachment: fixed;
 
   .container {
@@ -94,4 +94,15 @@
     transform: translateY(0);
     opacity: 100%;
   }
+}
+
+.showcase-login {
+  margin-top: 20px;
+  padding: 16px 50px;
+  background-color: $main-color;
+  color: #fff;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
 }

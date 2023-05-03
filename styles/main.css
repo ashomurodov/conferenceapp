@@ -184,6 +184,17 @@ header ul li:hover {
     opacity: 100%;
   }
 }
+.showcase-login {
+  margin-top: 20px;
+  padding: 16px 50px;
+  background-color: #0e5d56;
+  color: #fff;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
 .aboutLocation {
   background-color: #0e5d56;
   color: #fff;
