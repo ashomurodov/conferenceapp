@@ -973,4 +973,64 @@ iframe {
   .youtube__section .container {
     width: 1400px;
   }
+}
+
+.carusel {
+  padding: 20px;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  height: 400px;
+}
+@media screen and (min-width: 767px) {
+  .carusel {
+    margin-top: 80px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .carusel .imgContent {
+    width: 60%;
+    height: 450px;
+  }
+  .carusel .imgContent img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    transition: all 0.3s ease;
+  }
+}
+.carusel .imgContent img {
+  width: 300px;
+}
+@media screen and (min-width: 767px) {
+  .carusel .imgContent img {
+    width: 100%;
+  }
+}
+.carusel .prev,
+.carusel .next {
+  width: 20px;
+  height: 20px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #757474;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+@media screen and (min-width: 992px) {
+  .carusel .prev,
+  .carusel .next {
+    height: 80px;
+    width: 80px;
+  }
 }/*# sourceMappingURL=main.css.map */
