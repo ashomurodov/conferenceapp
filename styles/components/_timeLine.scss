@@ -21,22 +21,21 @@
     opacity: 0;
   }
 
-  .whatDO{
-
-    .name{
-        font-size: 25px;
-        font-weight: 600;
-        margin-bottom: 10px;
+  .whatDO {
+    .name {
+      font-size: 25px;
+      font-weight: 600;
+      margin-bottom: 10px;
     }
 
-    .about{
-        width: 200px;
-        font-weight: 300;
-        line-height: 23px;
+    .about {
+      width: 200px;
+      font-weight: 300;
+      line-height: 23px;
 
-        @include miniDesk{
-            width: 500px;
-        }
+      @include miniDesk {
+        width: 700px;
+      }
     }
   }
 
@@ -93,7 +92,7 @@
         }
 
         p {
-          font-size: 18px;
+          font-size: 17px;
 
           @include miniDesk {
             font-size: 22px;
@@ -107,6 +106,14 @@
 
           .AyDi {
             font-size: 16px;
+            @include miniDesk {
+              font-size: 22px;
+            }
+            margin-top: 10px;
+          }
+
+          .brecker {
+            margin: 25px 0px;
           }
 
           .titles {
@@ -132,6 +139,11 @@
         img {
           width: 60px;
           height: 60px;
+
+          @include miniDesk {
+            width: 90px;
+            height: 90px;
+          }
           border-radius: 50%;
           transform: translate(-45%, -10%);
           border: 2px solid $main-color;

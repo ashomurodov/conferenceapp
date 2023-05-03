@@ -16,6 +16,7 @@ if (window.innerWidth > 1000) {
       link.classList.remove("active");
       if (link.getAttribute("href").includes(current)) {
         link.classList.add("active");
+        console.log(link)
       }
     });
   });
