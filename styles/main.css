@@ -1151,7 +1151,7 @@ section.text {
   flex-direction: column;
   align-items: center;
   gap: 25px;
-  width: 300px;
+  width: 370px;
 }
 @media screen and (min-width: 767px) {
   .lastProcedings .container {
@@ -1196,4 +1196,20 @@ section.text {
 }
 .lastProcedings .proceeding_box a {
   color: #0e5d56;
+}
+
+.map__section h1 {
+  color: #0e5d56;
+  font-size: 34px;
+  text-align: center;
+  margin: 30px 0px;
+}
+.map__section p {
+  font-size: 18px;
+  text-align: center;
+  margin: 15px 0px 30px 0px;
+}
+.map__section iframe {
+  width: 100%;
+  height: 400px;
 }/*# sourceMappingURL=main.css.map */
