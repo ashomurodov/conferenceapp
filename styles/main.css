@@ -975,6 +975,18 @@ iframe {
   }
 }
 
+.linkForCultural {
+  padding: 40px;
+  text-align: center;
+  color: #fff;
+  background-color: #0e5d56;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  margin: 80px 0;
+}
+
 .carusel {
   padding: 20px;
   display: flex;
@@ -984,6 +996,7 @@ iframe {
   gap: 20px;
   width: 100%;
   height: 400px;
+  margin-bottom: 100px;
 }
 @media screen and (min-width: 767px) {
   .carusel {
@@ -1033,4 +1046,154 @@ iframe {
     height: 80px;
     width: 80px;
   }
+}
+
+.publication {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.publication h1 {
+  font-size: 35px;
+}
+.publication .title_publication {
+  color: #0e5d56;
+}
+.publication .container {
+  background-image: url("../images/newhero.jpeg");
+  width: 100%;
+  height: 400px;
+  color: #fff;
+}
+.publication .container .overlay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: -webkit-linear-gradient(top, rgba(28, 51, 51, 0.749), rgba(0, 0, 0, 0.857));
+  height: 100%;
+  text-align: center;
+  width: 100%;
+}
+.publication .container .overlay h3 {
+  font-size: 30px;
+  margin: 25px 0px;
+}
+.publication .container .overlay p {
+  font-size: 18px;
+  letter-spacing: 1.1px;
+  line-height: 26px;
+  width: 60%;
+}
+@media screen and (min-width: 992px) {
+  .publication .container .overlay p {
+    font-size: 21px;
+    line-height: 36px;
+    width: 35%;
+  }
+}
+.publication button {
+  padding: 24px 50px;
+  font-size: 30px;
+  background-color: #0e5d56;
+  outline: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s ease all;
+  border-radius: 4px;
+}
+.publication button:hover {
+  filter: brightness(90%);
+}
+.publication button:active {
+  scale: 0.96;
+}
+
+section.text {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text-container {
+  width: 300px;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 28px;
+  letter-spacing: 1.1px;
+}
+@media screen and (min-width: 575px) {
+  .text-container {
+    width: 500px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .text-container {
+    width: 870px;
+  }
+}
+
+.mainColor {
+  color: #0e5d56;
+}
+
+.lastProcedings {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+.lastProcedings .container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  width: 300px;
+}
+@media screen and (min-width: 767px) {
+  .lastProcedings .container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 700px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .lastProcedings .container {
+    width: 1100px;
+  }
+}
+.lastProcedings h1 {
+  color: #0e5d56;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.lastProcedings .proceeding_box {
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 10px 0px;
+  height: auto;
+  padding: 15px;
+  width: 100%;
+}
+@media screen and (min-width: 767px) {
+  .lastProcedings .proceeding_box {
+    width: 300px;
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .lastProcedings .proceeding_box {
+    width: 500px;
+    font-size: 25px;
+  }
+}
+.lastProcedings .proceeding_box h4 {
+  margin-bottom: 15px;
+}
+.lastProcedings .proceeding_box p {
+  color: #0e5d56;
 }/*# sourceMappingURL=main.css.map */

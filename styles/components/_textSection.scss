@@ -1,0 +1,25 @@
+section.text {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.text-container {
+  width: 300px;
+
+  @include mobile{
+    width: 500px;
+  }
+
+  @include miniDesk{
+    width: 870px;
+  }
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 28px;
+  letter-spacing: 1.1px;
+}
+
+.mainColor {
+  color: $main-color;
+}

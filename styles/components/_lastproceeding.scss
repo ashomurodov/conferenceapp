@@ -1,0 +1,56 @@
+.lastProcedings {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+
+  .container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    width: 300px;
+
+    @include tablet {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      width: 700px;
+    }
+    @include miniDesk {
+      width: 1100px;
+    }
+  }
+
+  h1 {
+    color: $main-color;
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+
+  .proceeding_box {
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 10px 0px;
+    height: auto;
+    padding: 15px;
+    width: 100%;
+    @include tablet {
+      width: 300px;
+      font-size: 20px;
+    }
+    @include miniDesk {
+      width: 500px;
+      font-size: 25px;
+    }
+
+    h4 {
+      margin-bottom: 15px;
+    }
+
+    p {
+      color: $main-color;
+    }
+  }
+}

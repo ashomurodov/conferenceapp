@@ -12,7 +12,7 @@
     height: 355px;
   }
 
-  h6{
+  h6 {
     font-size: 18px;
     margin: 20px 0px;
   }
@@ -22,7 +22,6 @@ iframe {
   width: 100%;
   height: 80%;
 }
-
 
 .youtube__section {
   display: flex;
@@ -39,4 +38,16 @@ iframe {
       width: 1400px;
     }
   }
+}
+
+.linkForCultural {
+  padding: 40px;
+  text-align: center;
+  color: #fff;
+  background-color: $main-color;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  margin: 80px 0;
 }
