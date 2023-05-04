@@ -1175,13 +1175,13 @@ section.text {
   background-color: rgb(255, 255, 255);
   border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 10px 0px;
-  height: auto;
+  height: 180px;
   padding: 15px;
   width: 100%;
 }
 @media screen and (min-width: 767px) {
   .lastProcedings .proceeding_box {
-    width: 300px;
+    width: 340px;
     font-size: 20px;
   }
 }
@@ -1194,6 +1194,6 @@ section.text {
 .lastProcedings .proceeding_box h4 {
   margin-bottom: 15px;
 }
-.lastProcedings .proceeding_box p {
+.lastProcedings .proceeding_box a {
   color: #0e5d56;
 }/*# sourceMappingURL=main.css.map */
