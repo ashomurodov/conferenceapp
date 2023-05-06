@@ -49,3 +49,5 @@ prev.addEventListener("click", () => {
   console.log(images[counter]);
   console.log("hello");
 });
+
+document.cookie = "myCookieName=myCookieValue; SameSite=Strict";
