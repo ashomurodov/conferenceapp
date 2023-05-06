@@ -16,7 +16,6 @@ if (window.innerWidth > 1000) {
       link.classList.remove("active");
       if (link.getAttribute("href").includes(current)) {
         link.classList.add("active");
-        console.log(link);
       }
     });
   });
@@ -44,10 +43,7 @@ prev.addEventListener("click", () => {
   if (counter < 0) {
     counter = images.length - 1;
   }
-  console.log(document.querySelector(".caruselImg").src);
   document.querySelector(".caruselImg").src = `./images/${images[counter]}`;
-  console.log(images[counter]);
-  console.log("hello");
 });
 
 document.cookie = "myCookieName=myCookieValue; SameSite=Strict";
