@@ -1,0 +1,76 @@
+.near-hotels {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+
+  .container {
+    @include tablet {
+      width: 70%;
+      margin: auto;
+    }
+
+    @include miniDesk {
+      width: 950px;
+      display: flex;
+      overflow-y: scroll;
+      gap: 30px;
+    }
+
+    @media screen and (min-width: 1400px) {
+      width: 1300px;
+    }
+    @media screen and (min-width: 1900px) {
+        width: 1700px;
+      }
+  }
+
+  h1 {
+    color: $main-color;
+    font-size: 32px;
+    margin-bottom: 30px;
+  }
+
+  .hotel-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    @include tablet {
+    //   gap: 30px;
+      width: 100%;
+      align-items: center;
+    }
+
+    .hotel-info {
+      margin: 30px 0px;
+
+      h4 {
+        font-size: 28px;
+      }
+
+      p {
+        font: 18px;
+      }
+    }
+
+    img {
+      width: 350px;
+      height: 300px;
+      object-fit: cover;
+
+      @include mobile {
+        width: 450px;
+        height: 400px;
+        object-fit: cover;
+      }
+
+      @include tablet {
+        width: 500px;
+        height: 350px;
+        object-fit: cover;
+      }
+    }
+  }
+}
