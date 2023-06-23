@@ -31,7 +31,7 @@ ul li {
 }
 
 header {
-  background-color: #0e5d56;
+  background-color: #004fec;
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -88,7 +88,7 @@ header ul li:hover {
 
 .showcase {
   height: 700px;
-  background-image: url("../images/newhero.jpeg");
+  background-image: url("../../images/showcasse.jpg");
   background-blend-mode: luminosity;
   background-repeat: no-repeat;
   background-size: cover;
@@ -102,7 +102,7 @@ header ul li:hover {
   }
 }
 .showcase .container {
-  background-image: -webkit-linear-gradient(top, rgba(28, 51, 51, 0.749), rgba(0, 0, 0, 0.857));
+  background-image: -webkit-linear-gradient(top, rgba(28, 30, 51, 0.749), rgba(0, 0, 0, 0.757));
   height: 100%;
   color: #fff;
   padding: 20px 30px;
@@ -188,7 +188,7 @@ header ul li:hover {
 .showcase-login {
   margin-top: 20px;
   padding: 16px 50px;
-  background-color: #0e5d56;
+  background-color: #004fec;
   color: #fff;
   font-size: 20px;
   border: none;
@@ -197,7 +197,7 @@ header ul li:hover {
 }
 
 .aboutLocation {
-  background-color: #0e5d56;
+  background-color: #004fec;
   color: #fff;
   font-weight: 700;
   padding: 35px;
@@ -228,7 +228,7 @@ header ul li:hover {
 }
 
 .organizers {
-  color: #0e5d56;
+  color: #004fec;
   padding: 25px;
   display: flex;
   flex-direction: column;
@@ -302,7 +302,7 @@ header ul li:hover {
   }
 }
 .abtconferencia .title {
-  color: #0e5d56;
+  color: #004fec;
   margin-bottom: 30px;
 }
 .abtconferencia .firstText,
@@ -316,7 +316,7 @@ header ul li:hover {
 }
 .abtconferencia .secondTitle {
   font-size: 16px;
-  color: #0e5d56;
+  color: #004fec;
   margin-bottom: 10px;
 }
 .abtconferencia .lastText {
@@ -325,7 +325,7 @@ header ul li:hover {
 }
 .abtconferencia .linkList li {
   font-size: 18px;
-  color: #0e5d56;
+  color: #004fec;
   margin: 10px 0px;
   font-weight: 600;
 }
@@ -339,7 +339,7 @@ header ul li:hover {
   }
   .abtconferencia .secondTitle {
     font-size: 22px;
-    color: #0e5d56;
+    color: #004fec;
     margin-bottom: 10px;
   }
   .abtconferencia .lastText {
@@ -349,14 +349,14 @@ header ul li:hover {
   }
   .abtconferencia .linkList li {
     font-size: 22px;
-    color: #0e5d56;
+    color: #004fec;
     margin: 10px 0px;
     font-weight: 600;
   }
 }
 
 .important-dates {
-  color: #0e5d56;
+  color: #004fec;
 }
 
 .imprDates {
@@ -398,7 +398,7 @@ header ul li:hover {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background-color: #0e5d56;
+  background-color: #004fec;
   position: relative;
 }
 
@@ -410,7 +410,7 @@ header ul li:hover {
   transform: translateX(-50%);
   width: 3px;
   height: 190px;
-  background-color: #0e5d56;
+  background-color: #004fec;
 }
 
 .date {
@@ -426,7 +426,7 @@ header ul li:hover {
 .date .dayYear {
   font-size: 20px;
   font-weight: 700;
-  color: #0e5d56;
+  color: #004fec;
   margin-bottom: 10px;
 }
 .date .aboutDayYear {
@@ -455,7 +455,7 @@ header ul li:hover {
   }
 }
 .title-chairmen {
-  color: #0e5d56;
+  color: #004fec;
   text-align: center;
   margin: 15px 0px;
 }
@@ -539,7 +539,7 @@ header ul li:hover {
 }
 
 .scititle {
-  color: #0e5d56;
+  color: #004fec;
   text-align: center;
   margin: 30px 0px;
 }
@@ -650,7 +650,7 @@ header ul li:hover {
   }
 }
 .scicommite .container .commite-box .about-commite span {
-  color: #0e5d56;
+  color: #004fec;
 }
 
 .profs {
@@ -682,7 +682,7 @@ header ul li:hover {
 
 .organizingCommitte .title-organize {
   text-align: center;
-  color: #0e5d56;
+  color: #004fec;
   margin: 35px 0px;
 }
 .organizingCommitte .container {
@@ -693,7 +693,7 @@ header ul li:hover {
   padding: 40px;
   text-align: center;
   color: #fff;
-  background-color: #0e5d56;
+  background-color: #004fec;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -729,7 +729,7 @@ header ul li:hover {
 }
 .timelineSection h1 {
   font-size: 30px;
-  color: #0e5d56;
+  color: #004fec;
   margin-bottom: 30px;
 }
 .timelineSection h3 {
@@ -830,7 +830,7 @@ header ul li:hover {
 }
 .timelineSection .container .timeBox .whatDO .someTxt .titles {
   font-size: 18px;
-  color: #0e5d56;
+  color: #004fec;
   font-weight: 700;
 }
 @media screen and (min-width: 992px) {
@@ -841,9 +841,9 @@ header ul li:hover {
 .timelineSection .container .timeBox .CirCle {
   width: 15px;
   height: 15px;
-  border: 2px solid #0e5d56;
+  border: 2px solid #004fec;
   border-radius: 50%;
-  background-color: #0e5d56;
+  background-color: #004fec;
   position: relative;
 }
 .timelineSection .container .timeBox .CirCle img {
@@ -851,7 +851,7 @@ header ul li:hover {
   height: 60px;
   border-radius: 50%;
   transform: translate(-45%, -10%);
-  border: 2px solid #0e5d56;
+  border: 2px solid #004fec;
 }
 @media screen and (min-width: 992px) {
   .timelineSection .container .timeBox .CirCle img {
@@ -862,8 +862,8 @@ header ul li:hover {
 .timelineSection .container .timeBox .CirCle::after {
   content: "";
   width: 2px;
-  height: 1600px;
-  background-color: #0e5d56;
+  height: 1466px;
+  background-color: #004fec;
   position: absolute;
   transform: translateX(-70%);
 }
@@ -877,7 +877,7 @@ header ul li:hover {
   align-items: center;
 }
 .conference h1 {
-  color: #0e5d56;
+  color: #004fec;
 }
 .conference .container {
   display: grid;
@@ -924,8 +924,8 @@ header ul li:hover {
 }
 .conference .conf_box button {
   padding: 14px 18px;
-  border: 2px solid #0e5d56;
-  color: #0e5d56;
+  border: 2px solid #004fec;
+  color: #004fec;
   background-color: #fff;
   cursor: pointer;
   margin-top: 20px;
@@ -979,7 +979,7 @@ iframe {
   padding: 40px;
   text-align: center;
   color: #fff;
-  background-color: #0e5d56;
+  background-color: #004fec;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1058,7 +1058,7 @@ iframe {
   font-size: 35px;
 }
 .publication .title_publication {
-  color: #0e5d56;
+  color: #004fec;
 }
 .publication .container {
   background-image: url("../images/newhero.jpeg");
@@ -1095,7 +1095,7 @@ iframe {
 .publication button {
   padding: 24px 50px;
   font-size: 30px;
-  background-color: #0e5d56;
+  background-color: #004fec;
   outline: none;
   border: none;
   color: #fff;
@@ -1136,7 +1136,7 @@ section.text {
 }
 
 .mainColor {
-  color: #0e5d56;
+  color: #004fec;
 }
 
 .lastProcedings {
@@ -1167,7 +1167,7 @@ section.text {
   }
 }
 .lastProcedings h1 {
-  color: #0e5d56;
+  color: #004fec;
   font-size: 30px;
   margin-bottom: 30px;
 }
@@ -1195,11 +1195,11 @@ section.text {
   margin-bottom: 15px;
 }
 .lastProcedings .proceeding_box a {
-  color: #0e5d56;
+  color: #004fec;
 }
 
 .map__section h1 {
-  color: #0e5d56;
+  color: #004fec;
   font-size: 34px;
   text-align: center;
   margin: 30px 0px;
@@ -1246,7 +1246,7 @@ section.text {
   }
 }
 .near-hotels h1 {
-  color: #0e5d56;
+  color: #004fec;
   font-size: 32px;
   margin-bottom: 30px;
 }
@@ -1290,5 +1290,35 @@ section.text {
     height: 350px;
     -o-object-fit: cover;
        object-fit: cover;
+  }
+}
+
+.footer__section {
+  padding: 20px 100px;
+  background-color: #004fec;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer__section .logo {
+  width: 200px;
+}
+.footer__section .footer__left {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+.footer__section .footer__right {
+  display: none;
+}
+@media screen and (min-width: 1100px) {
+  .footer__section {
+    justify-content: space-between;
+  }
+  .footer__section .footer__right {
+    display: block;
   }
 }/*# sourceMappingURL=main.css.map */

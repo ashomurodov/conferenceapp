@@ -4,7 +4,7 @@
   @include miniDesk {
     height: 800px;
   }
-  background-image: url("../images/newhero.jpeg");
+  background-image: url("../../images/showcasse.jpg");
   background-blend-mode: luminosity;
   background-repeat: no-repeat;
   background-size: cover;
@@ -13,7 +13,7 @@
   background-attachment: fixed;
 
   .container {
-    background-image: -webkit-linear-gradient(top, rgba(28, 51, 51, 0.749), rgba(0, 0, 0, 0.857));
+    background-image: -webkit-linear-gradient(top, rgba(28, 30, 51, 0.749), rgba(0, 0, 0, 0.757));
     height: 100%;
     color: #fff;
     @include miniDesk {
