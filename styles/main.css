@@ -862,7 +862,7 @@ header ul li:hover {
 .timelineSection .container .timeBox .CirCle::after {
   content: "";
   width: 2px;
-  height: 900px;
+  height: 1600px;
   background-color: #0e5d56;
   position: absolute;
   transform: translateX(-70%);
